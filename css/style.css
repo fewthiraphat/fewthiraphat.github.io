@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 100%;
+     /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-align-center{
+    text-align: center;
+    margin-top:200px;
+    margin-right:220px;
+    margin-left:220px;
+    color:black;
+}
+h1{
+    font-size:40px;
+    font-family: 'Fira Sans', sans-serif;
+}
+#facebook-profile{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:320px;
+    height:320px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+    float: left;
+  }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+#login{
+      float:right;
+  }
+.tabbar{
+    font-family: 'Fira Sans', sans-serif;
+  }
+#name{
+    color:whitesmoke;
+    text-transform: uppercase;
+    font-size:18px;
+  }
+li:hover{
+    background-color: green;
+  }

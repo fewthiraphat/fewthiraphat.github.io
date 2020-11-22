@@ -1,29 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Thiraphat Itamonchai</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <div class="tabbar">
-    <header>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="https://www.facebook.com/Thiraphat.IT">News</a> </li>
-            <li><a href="about.html">About</a> </li>
-            <li id = "login"> <a href="">Login</a></li>
-        </ul>
-    </header>
-</div>
-    <div class = "text-align-center">
-        <h1>I'm not a great programmer; I'm just a good programmer with great habits</h1>
-        <h1 id="name">-Thiraphat Itamonchai</h1>
-    </div>
-    <div class = "image-profile">
-        <img id = "facebook-profile" src="https://scontent.fbkk7-3.fna.fbcdn.net/v/t1.0-9/48412723_281555835889585_4302080955843084288_n.jpg?_nc_cat=108&_nc_sid=85a577&_nc_ohc=rBzuE7ZUh2sAX-ML8Ld&_nc_ht=scontent.fbkk7-3.fna&oh=8d24e957a5b3d27dd9036c9fc5dd6b14&oe=5E8E1C93" alt="">
+    <div class="profile">
+        <div class="profile-left">
+            <img src="./images/profile.jpg" alt="" style="width:150px; height:150px; border-radius: 50%;">
+            <h3>Thiraphat Itamonchai</h3>
+            <h4>Frontend Developer</h4>
+            <a href="#about-me">
+                <h6>ABOUT ME</h6>
+            </a>
+            <a href="#skill">
+                <h6>SKILL</h6>
+                </a>
+            <a href="#education">
+            <h6>EDUCATION</h6>
+            </a>
+
+            <a href="#portfolio">
+                <h6>PORTFOLIO</h6>
+            </a>
+            <a href="#certificate">
+                <h6>CERTIFICATE</h6>
+            </a>
+            <a href="#contact">
+                <h6>CONTACT</h6>
+            </a>
+        </div>
+        <div class="profile-right">
+            <h1 class="head" id="about-me">ABOUT ME</h1>
+            <p>Hello My name is Thiraphat Itamonchai. I am Frontend Developer</p>
+            <p>I'm studying about Backend Technology that can make me to be Full Stack Developer</p>
+            <p><b>Birthday:</b>15/06/2002</p>
+            <p><b>Location:</b> Bangkok, Thailand</p>
+            <p><b>Email:</b>few.thiraphat@gmail.com</p>
+            <p><b>Phone:</b>+66993593082</p>
+            <hr>
+            <div id="skill">
+                <h1 class="head">SKILL</h1>
+                <ul style="line-height: 40px;">
+                <li>HTML / CSS / JavaScript</li>
+                <li>Java</li>
+                <li>Vue.js / Nuxt.js</li>
+                <li>React native</li>
+            </ul>
+            <hr>
+            </div>
+            <h1 class="head" id="education">EDUCATION</h1>
+            <p>Faculty of Information Technology ,SIT KMUTT</p>
+            <p>2020 - Present</p>
+            <hr>
+            <div>
+            <h1 class="head" id="portfolio">PORTFOLIO</h1>
+            <div>
+                <div>
+                </div>
+                <div>
+                    <div>
+                        <a href="http://www.hellomoonfestival.codes/" target="_blank">
+                            <img src="./images/moonfest.png" alt="" style="height:100px; width:200px">
+                        </a>
+                    <p>Moon Festival</p>
+                    <p>เป็น Website ที่ให้ความรู้กับผู้คนเรื่องเทศกาลไหว้พระจันทร์</p>
+                    <p>โดยเว็บไซต์นี้เป็นส่วนหนึ่งของโปรเจคจบโครงการ Hello World ของ คณะเทคโนโลยีสารสนเทศ มจธ.</p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/fewthiraphat/PlantAnyWhere" target="_blank">
+                            <img src="./images/plant-anywhere.png" alt="" style="height:100px; width:200px">
+                        </a>
+                    <p>PlantAnywhere(กำลังพัฒนา)</p>
+                    <p>เป็น Web App ที่ให้ผู้ใช้สามารถร่วมกันปลูกต้นไม้ ได้ผ่านหน้าจอโดยการดูโฆษนาเป็นจำนวนหนึ่งเพื่อและคะแนนแลกปลูกต้นไม้</p>
+                    <p>หรือแลกสะสมคะแนนเพื่อทำกิจกรรมช่วยเหลือผู้ยากไร้ต่างๆ โดยเงินที่จัดกิจกรรมจะมาจากรายได้ของผู้ชมโฆษณา</p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/fewthiraphat/First-Aid-App" target="_blank">
+                            <img src="./images/first-aid-app.png" alt="" style="height:200px; width:150px">
+                        </a> 
+                    <p>First Aid App(กำลังพัฒนา)</p>
+                    <p>เป็นแอปพลิเคชั่นที่พัฒนาโดยมีหลักแนวคิดที่ว่า มือถือคืออุปกรณ์ยุคใหม่ที่เป็นไปได้ทุกอย่างรวมถึง คู่มือการปฐมพยาบาลฉุกเฉิน</p>
+                    <p>เมื่อเกิดอุบัติเหตุแล้วต้องการหาวิธีปฐมพยาบาลเบื้องต้น First Aid App จะเป็นความรู้ในการปฐมพยาบาลที่ไม่ต้องพึ่งแม้ Internet</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <div class="certificate" id="certificate">
+                <h1 class="head">CERTIFICATE</h1>
+                <img src="./images/cert.png" alt="" style="height:400px;">
+                <hr>
+            </div>
+            <div class="contact" id="contact">
+                <h1 class="head">CONTACT</h1>
+                <form method="POST">
+                    <label for="name" >ชื่อ:</label>
+                    <input type="text" placeholder="กรอกชื่อของคุณ" name="name" id="name">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="กรอกอีเมลของคุณ" name="email" id="email">
+                    <label for="number">หมายเลขโทรศัพท์:</label>
+                    <input type="tel" placeholder="กรอกหมายเลขของคุณ" name="number" id="number"/>
+                    <br>
+                    <br>
+                    <label for="callback">ต้องการตอบกลับแบบไหน</label>
+                    <input type="radio" value="tel-back" name="callback" >
+                    <label for="tel-back">โทรมาหาฉัน</label>
+                    <input type="radio" value="email-back" name="callback">
+                    <label for="email-back">อีเมลตอบกลับ</label>
+                    <br>
+                    <p>ต้องการติดต่อในเรื่อง</p>
+                    <input type="checkbox" name="hire" value="hire" id="hire">
+                    <label for="hire">จ้างงาน</label>
+                    <input type="checkbox">
+                    <label for="private" name="private" value="private" id="private">เรื่องส่วนตัว</label>
+                    <input type="checkbox">
+                    <label for="other" name="other" value="other" id="other">อื่นๆ</label>
+                    <p>ข้อความของคุณ</p>
+                    <textarea name="" id="" cols="60" rows="10"></textarea>
+                    <br>
+                    <input type="submit" value="ส่ง" style="width:100px; height:50px; background-color:#5655da; color:white;"/>
+                </form>
+            </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
